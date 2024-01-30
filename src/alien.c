@@ -91,6 +91,10 @@ void shift_left(Aliens *aliens) {
 }
 
 void update_aliens_width(Aliens *aliens) {
+    if (aliens->cols == 1) {
+        return;
+    }
+
     bool empty_col = true;
     for (int i = 0; i < AMOUNT_ALIEN_ROWS; i++) {
         if (aliens->aliens[0][i]) {
