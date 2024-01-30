@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-std=c99",
+      "-I/opt/homebrew/include",
+      "-o",
+      "game",
+      "./src/main.c"
+    ],
+    "directory": "/Users/fede/Desktop/C/SandSimulator",
+    "file": "/Users/fede/Desktop/C/SandSimulator/src/main.c",
+    "output": "/Users/fede/Desktop/C/SandSimulator/game"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-std=c99",
+      "-I/opt/homebrew/include",
+      "-o",
+      "game",
+      "./src/sand.c"
+    ],
+    "directory": "/Users/fede/Desktop/C/SandSimulator",
+    "file": "/Users/fede/Desktop/C/SandSimulator/src/sand.c",
+    "output": "/Users/fede/Desktop/C/SandSimulator/game"
+  }
+]
